@@ -1,0 +1,42 @@
+/* 
+const nome = prompt("Qual seu nome?");
+const cor = prompt("Qual sua cor favorita?");
+
+
+console.log ( `${nome}  sua cor favorita é  ${cor}`);
+
+console.log  ( nome + " sua cor favorita é " + cor); 
+*/
+
+/*
+const nome = "Vitor Hugo"
+console.log(nome.length)
+*/
+
+
+/* 
+const frase = prompt("Digite uma frase: ") //"   O gato comeu um ovo  ";
+console.log(frase.toLocaleLowerCase())
+console.log(frase.toLocaleUpperCase())
+console.log(frase.replaceAll("o","i"))
+console.log(frase.trim())
+console.log(frase.length)
+
+
+
+const frase2 = "    Hoje comi cenoura  "
+console.log(frase2.includes("cenoura"))
+console.log(frase2.includes("batata"))
+ */
+
+/* const racasCachorro = ["Golden", "Labrador", "Shitzu", "Pug", "Poodle"]
+const numero = prompt("Digite um número de 0 a 4: ") 
+console.log(racasCachorro[numero])
+ */
+
+const numeros = ["1", "2", "3", "4", "5", "6"]
+console.log(numeros.length)
+numeros.push(7)
+numeros.splice(4 , 5)
+console.log(numeros)
+console.log(numeros.length)
